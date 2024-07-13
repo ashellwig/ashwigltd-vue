@@ -1,0 +1,12 @@
+{
+  /* General Settings */
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  /* Language Settings */
+  // Typescript
+  "typescript.validate.enable": false
+}

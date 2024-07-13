@@ -9,12 +9,15 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
+    <h1 class="orange">{{ msg }}</h1>
+    <h3>Offering services in</h3>
+    <ul>
+      <li>Software Engineering</li>
+      <li>Database Engineering</li>
+      <li>Cloud Engineering</li>
+      <li>Systems Engineering</li>
+      <li>Infrastructure Design</li>
+    </ul>
   </div>
 </template>
 
@@ -31,7 +34,8 @@ h3 {
 }
 
 .greetings h1,
-.greetings h3 {
+.greetings h3,
+.greetings ul {
   text-align: center;
 }
 
