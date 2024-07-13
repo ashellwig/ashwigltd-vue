@@ -14,6 +14,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "balm-ui": "^10.29.0",
     "vue": "^3.4.29"
   },
   "devDependencies": {

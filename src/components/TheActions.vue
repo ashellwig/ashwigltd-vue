@@ -1,8 +1,9 @@
 <script setup>
 import ActionItem from './ActionItem.vue'
 import IconPortfolio from './icons/IconPortfolio.vue'
-import IconContact from './icons/IconContact.vue'
-import IconSocial from './icons/IconSocial.vue'
+// import PersonalWebsiteButton from './buttons/PersonalWebsiteButton.vue'
+// import IconContact from './icons/IconContact.vue'
+// import IconSocial from './icons/IconSocial.vue'
 </script>
 
 <template>
@@ -10,13 +11,16 @@ import IconSocial from './icons/IconSocial.vue'
     <template #icon>
       <IconPortfolio />
     </template>
-    <template #heading>Personal Website &amp; Portfolio</template>
-
-    View my personal website, along with a detailed portfolio
-    <a>here</a>.
+    <template #heading
+      ><ui-button outlined icon="launch"
+        ><a href="https://ash.ashwigltd.com" target="_blank"
+          >Personal Website &amp; Portfolio</a
+        ></ui-button
+      ></template
+    >
   </ActionItem>
 
-  <ActionItem>
+  <!-- <ActionItem>
     <template #icon>
       <IconContact />
     </template>
@@ -35,5 +39,5 @@ import IconSocial from './icons/IconSocial.vue'
     If you are searching for my social media links, they can be found either on
     my personal website in the footer &mdash; or right
     <a>here</a>!
-  </ActionItem>
+  </ActionItem> -->
 </template>

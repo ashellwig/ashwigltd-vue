@@ -8,5 +8,10 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   /* Language Settings */
   // Typescript
-  "typescript.validate.enable": false
+  "typescript.validate.enable": false,
+  "vue.doctor.status": true,
+  "vue.codeActions.enabled": true,
+  "[vue]": {
+    "editor.tabSize": 2
+  }
 }
