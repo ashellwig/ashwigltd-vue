@@ -11,6 +11,54 @@ export default {
           target: '_blank',
           rel: 'noreferrer',
           username: 'ashwig'
+        },
+        {
+          aria: 'Twitch',
+          icon: 'fa-brands fa-twitch',
+          link: 'https://twitch.tv/ashhellwig',
+          target: '_blank',
+          rel: 'noreferrer',
+          username: 'AshHellwig'
+        },
+        {
+          aria: 'YouTube',
+          icon: 'fa-brands fa-youtube',
+          link: 'https://youtube.com/@ashhellwig',
+          target: '_blank',
+          rel: 'noreferrer',
+          username: '@ashhellwig'
+        },
+        {
+          aria: 'Instagram',
+          icon: 'fa-brands fa-instagram',
+          link: 'https://instagram.com/toyotatrapstar',
+          target: '_blank',
+          rel: 'noreferrer',
+          username: '@toyotatrapstar'
+        },
+        {
+          aria: 'Twitter',
+          icon: 'fa-brands fa-twitter',
+          link: 'https://twitter.com/hellwigashton',
+          target: '_blank',
+          rel: 'noreferrer',
+          username: '@hellwigashton'
+        },
+        {
+          aria: 'GitHub',
+          icon: 'fa-brands fa-github',
+          link: 'https://github.com/ashellwig',
+          target: '_blank',
+          rel: 'noreferrer',
+          username: '@ashellwig'
+        },
+        {
+          aria: 'LinkedIn',
+          icon: 'fa-brands fa-linkedin',
+          link: 'https://www.linkedin.com/in/ahellwig',
+          target: '_blank',
+          rel: 'noreferrer',
+          username: '/in/ahellwig'
         }
       ]
     }
@@ -19,7 +67,9 @@ export default {
 </script>
 
 <template>
-  <ui-button oulined @click="open = true">Social Media Links</ui-button>
+  <ui-button oulined @click="open = true" icon="photo_camera_front"
+    >Social Media Links</ui-button
+  >
 
   <ui-dialog v-model="open">
     <ui-dialog-title closable>Follow Me!</ui-dialog-title>

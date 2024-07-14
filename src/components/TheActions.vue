@@ -1,7 +1,6 @@
 <script setup>
 import ActionItem from './ActionItem.vue'
 import IconPortfolio from './icons/IconPortfolio.vue'
-// import PersonalWebsiteButton from './buttons/PersonalWebsiteButton.vue'
 // import IconContact from './icons/IconContact.vue'
 import IconSocial from './icons/IconSocial.vue'
 import SocialModal from './modals/SocialModal.vue'
