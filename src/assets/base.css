@@ -9,6 +9,7 @@
   --vt-c-black-mute: #282828;
 
   --vt-c-black-ish: rgba(27, 31, 34, 0.89);
+  --vt-c-black-ish-opaque: rgba(27, 31, 34, 1);
 
   --vt-c-indigo: #2c3e50;
 
@@ -23,6 +24,7 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
   --mdc-outlined-button-label-text-color: hsla(30, 100%, 55%, 1);
   --mdc-theme-primary: hsla(30, 100%, 55%, 1);
+  --mdc-theme-primary-dark: hsla(23, 98%, 40%, 1);
 }
 
 /* semantic color variables for this project */

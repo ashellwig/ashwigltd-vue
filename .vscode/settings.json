@@ -7,11 +7,19 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   /* Language Settings */
+  // JavaScript
+  "[javascript]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.tabSize": 2
+  },
   // Typescript
   "typescript.validate.enable": false,
-  "vue.doctor.status": true,
-  "vue.codeActions.enabled": true,
+  // Vue - General
   "[vue]": {
     "editor.tabSize": 2
-  }
+  },
+  "vue.codeActions.enabled": true,
+  "vue.doctor.status": true,
+  // Vue - Vite
+  "vite.autoStart": false
 }
