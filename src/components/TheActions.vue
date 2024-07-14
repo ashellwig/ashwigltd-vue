@@ -3,7 +3,8 @@ import ActionItem from './ActionItem.vue'
 import IconPortfolio from './icons/IconPortfolio.vue'
 // import PersonalWebsiteButton from './buttons/PersonalWebsiteButton.vue'
 // import IconContact from './icons/IconContact.vue'
-// import IconSocial from './icons/IconSocial.vue'
+import IconSocial from './icons/IconSocial.vue'
+import SocialModal from './modals/SocialModal.vue'
 </script>
 
 <template>
@@ -28,16 +29,14 @@ import IconPortfolio from './icons/IconPortfolio.vue'
 
     You may contact me using <a>this form</a> if you don&apos;t want to leave
     this webpage for the one listed above, for whatever reason.
-  </ActionItem>
+  </ActionItem> -->
 
   <ActionItem>
     <template #icon>
       <IconSocial />
     </template>
-    <template #heading>Social Media Links</template>
-
-    If you are searching for my social media links, they can be found either on
-    my personal website in the footer &mdash; or right
-    <a>here</a>!
-  </ActionItem> -->
+    <template #heading>
+      <SocialModal></SocialModal>
+    </template>
+  </ActionItem>
 </template>
