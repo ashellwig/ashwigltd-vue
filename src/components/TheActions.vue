@@ -9,15 +9,18 @@ import SocialModal from './modals/SocialModal.vue'
 <template>
   <ActionItem>
     <template #icon>
-      <IconPortfolio />
+      <IconPortfolio></IconPortfolio>
     </template>
-    <template #heading
-      ><ui-button outlined icon="launch"
-        ><a href="https://ash.ashwigltd.com" target="_blank"
-          >Personal Website &amp; Portfolio</a
-        ></ui-button
-      ></template
-    >
+    <template #heading>
+      <a
+        v-button.outlined
+        href="https://ash.ashwigltd.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <ui-icon size="18">launch</ui-icon> Personal Website
+      </a>
+    </template>
   </ActionItem>
 
   <!-- <ActionItem>
@@ -32,10 +35,23 @@ import SocialModal from './modals/SocialModal.vue'
 
   <ActionItem>
     <template #icon>
-      <IconSocial />
+      <IconSocial></IconSocial>
     </template>
     <template #heading>
       <SocialModal></SocialModal>
     </template>
   </ActionItem>
 </template>
+
+<style>
+.material-icons-outlined.md-18,
+.material-icons-round.md-18,
+.material-icons-two-tone.md-18,
+.material-icons.md-18 {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 8px;
+  position: relative;
+  vertical-align: top;
+}
+</style>
