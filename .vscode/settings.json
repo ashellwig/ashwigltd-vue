@@ -6,6 +6,10 @@
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Licenser
+  "licenser.author": "Ash Hellwig",
+  "licenser.license": "AL2",
+  "licenser.projectName": "ashwigltd-vue",
   /* Language Settings */
   // JavaScript
   "[javascript]": {

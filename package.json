@@ -1,8 +1,18 @@
 {
   "name": "ashwigltd-vue",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "Ash Hellwig",
+    "email": "ahellwig.dev@gmail.com",
+    "url": "https://ash.ashwigltd.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashellwig/ashwigltd-vue.git"
+  },
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
